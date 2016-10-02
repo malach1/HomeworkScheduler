@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53BCF3C1C8E8C260045C0F0 /* FilterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53BCF3B1C8E8C260045C0F0 /* FilterTableViewCell.swift */; };
+		A53BCF3F1C8FE8D20045C0F0 /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53BCF3E1C8FE8D20045C0F0 /* CheckInViewController.swift */; };
+		A5C4439F1CA0D3FE003BC786 /* filterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4439E1CA0D3FE003BC786 /* filterProtocol.swift */; };
+		A5EC0BE81C4498FB0078D895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0BE71C4498FB0078D895 /* AppDelegate.swift */; };
+		A5EC0BED1C4498FB0078D895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EC0BEB1C4498FB0078D895 /* Main.storyboard */; };
+		A5EC0BEF1C4498FB0078D895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5EC0BEE1C4498FB0078D895 /* Assets.xcassets */; };
+		A5EC0BF21C4498FB0078D895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5EC0BF01C4498FB0078D895 /* LaunchScreen.storyboard */; };
+		A5EC0BFD1C4498FC0078D895 /* HomeworkSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0BFC1C4498FC0078D895 /* HomeworkSchedulerTests.swift */; };
+		A5EC0C081C4498FC0078D895 /* HomeworkSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C071C4498FC0078D895 /* HomeworkSchedulerUITests.swift */; };
+		A5EC0C181C449A030078D895 /* HomeworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C171C449A030078D895 /* HomeworkTableViewController.swift */; };
+		A5EC0C1A1C449CFD0078D895 /* AssignmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C191C449CFD0078D895 /* AssignmentTableViewCell.swift */; };
+		A5EC0C211C449E230078D895 /* AddHomeworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C201C449E230078D895 /* AddHomeworkViewController.swift */; };
+		A5EC0C241C449E800078D895 /* HomeworkDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C231C449E800078D895 /* HomeworkDetailsTableViewController.swift */; };
+		A5EC0C261C449E930078D895 /* HomeworkDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C251C449E930078D895 /* HomeworkDetailsTableViewCell.swift */; };
+		A5EC0C2B1C449F1C0078D895 /* WorkInProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C2A1C449F1C0078D895 /* WorkInProgressViewController.swift */; };
+		A5EC0C2D1C449F300078D895 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EC0C2C1C449F300078D895 /* WorkViewController.swift */; };
+		A5F4AE0A1C571D9E0071420A /* StepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE091C571D9E0071420A /* StepsTableViewController.swift */; };
+		A5F4AE0C1C571DDC0071420A /* StepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE0B1C571DDC0071420A /* StepsTableViewCell.swift */; };
+		A5F4AE0F1C5B08B70071420A /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE0E1C5B08B70071420A /* Homework.swift */; };
+		A5F4AE121C643EB30071420A /* AddStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE111C643EB30071420A /* AddStepsViewController.swift */; };
+		A5F4AE141C6993D30071420A /* HomeworkNotesDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE131C6993D30071420A /* HomeworkNotesDetailTableViewCell.swift */; };
+		A5F4AE161C6993E80071420A /* HomeworkStepsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE151C6993E80071420A /* HomeworkStepsDetailTableViewCell.swift */; };
+		A5F4AE181C6994050071420A /* HomeworkWorkBtnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE171C6994050071420A /* HomeworkWorkBtnTableViewCell.swift */; };
+		A5F4AE1C1C7FF4580071420A /* DisplayStepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE1B1C7FF4580071420A /* DisplayStepsTableViewController.swift */; };
+		A5F4AE1E1C7FF4720071420A /* IndividualStepsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4AE1D1C7FF4720071420A /* IndividualStepsTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5EC0BF91C4498FC0078D895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5EC0BDC1C4498FB0078D895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EC0BE31C4498FB0078D895;
+			remoteInfo = HomeworkScheduler;
+		};
+		A5EC0C041C4498FC0078D895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5EC0BDC1C4498FB0078D895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5EC0BE31C4498FB0078D895;
+			remoteInfo = HomeworkScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53BCF3B1C8E8C260045C0F0 /* FilterTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterTableViewCell.swift; sourceTree = "<group>"; };
+		A53BCF3E1C8FE8D20045C0F0 /* CheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
+		A5C4439E1CA0D3FE003BC786 /* filterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filterProtocol.swift; sourceTree = "<group>"; };
+		A5EC0BE41C4498FB0078D895 /* otoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EC0BE71C4498FB0078D895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5EC0BEC1C4498FB0078D895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5EC0BEE1C4498FB0078D895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5EC0BF11C4498FB0078D895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5EC0BF31C4498FB0078D895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EC0BF81C4498FC0078D895 /* otoi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EC0BFC1C4498FC0078D895 /* HomeworkSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkSchedulerTests.swift; sourceTree = "<group>"; };
+		A5EC0BFE1C4498FC0078D895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EC0C031C4498FC0078D895 /* otoi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = otoi.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5EC0C071C4498FC0078D895 /* HomeworkSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkSchedulerUITests.swift; sourceTree = "<group>"; };
+		A5EC0C091C4498FC0078D895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5EC0C171C449A030078D895 /* HomeworkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewController.swift; sourceTree = "<group>"; };
+		A5EC0C191C449CFD0078D895 /* AssignmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentTableViewCell.swift; sourceTree = "<group>"; };
+		A5EC0C201C449E230078D895 /* AddHomeworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHomeworkViewController.swift; sourceTree = "<group>"; };
+		A5EC0C231C449E800078D895 /* HomeworkDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkDetailsTableViewController.swift; sourceTree = "<group>"; };
+		A5EC0C251C449E930078D895 /* HomeworkDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		A5EC0C2A1C449F1C0078D895 /* WorkInProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkInProgressViewController.swift; sourceTree = "<group>"; };
+		A5EC0C2C1C449F300078D895 /* WorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		A5F4AE091C571D9E0071420A /* StepsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsTableViewController.swift; sourceTree = "<group>"; };
+		A5F4AE0B1C571DDC0071420A /* StepsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsTableViewCell.swift; sourceTree = "<group>"; };
+		A5F4AE0E1C5B08B70071420A /* Homework.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
+		A5F4AE111C643EB30071420A /* AddStepsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStepsViewController.swift; sourceTree = "<group>"; };
+		A5F4AE131C6993D30071420A /* HomeworkNotesDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkNotesDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A5F4AE151C6993E80071420A /* HomeworkStepsDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkStepsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A5F4AE171C6994050071420A /* HomeworkWorkBtnTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeworkWorkBtnTableViewCell.swift; sourceTree = "<group>"; };
+		A5F4AE1B1C7FF4580071420A /* DisplayStepsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayStepsTableViewController.swift; sourceTree = "<group>"; };
+		A5F4AE1D1C7FF4720071420A /* IndividualStepsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualStepsTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5EC0BE11C4498FB0078D895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0BF51C4498FC0078D895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0C001C4498FC0078D895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53BCF3A1C8E8C020045C0F0 /* HomeworkCells */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C191C449CFD0078D895 /* AssignmentTableViewCell.swift */,
+				A53BCF3B1C8E8C260045C0F0 /* FilterTableViewCell.swift */,
+				A5C4439E1CA0D3FE003BC786 /* filterProtocol.swift */,
+			);
+			name = HomeworkCells;
+			sourceTree = "<group>";
+		};
+		A53BCF3D1C8FE8A80045C0F0 /* DoneCheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				A53BCF3E1C8FE8D20045C0F0 /* CheckInViewController.swift */,
+			);
+			name = DoneCheckIn;
+			sourceTree = "<group>";
+		};
+		A5EC0BDB1C4498FB0078D895 = {
+			isa = PBXGroup;
+			children = (
+				A5EC0BE61C4498FB0078D895 /* HomeworkScheduler */,
+				A5EC0BFB1C4498FC0078D895 /* HomeworkSchedulerTests */,
+				A5EC0C061C4498FC0078D895 /* HomeworkSchedulerUITests */,
+				A5EC0BE51C4498FB0078D895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5EC0BE51C4498FB0078D895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0BE41C4498FB0078D895 /* otoi.app */,
+				A5EC0BF81C4498FC0078D895 /* otoi.xctest */,
+				A5EC0C031C4498FC0078D895 /* otoi.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5EC0BE61C4498FB0078D895 /* HomeworkScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4AE0D1C5B089E0071420A /* Model */,
+				A5EC0C1D1C449D950078D895 /* Controller */,
+				A5EC0BE71C4498FB0078D895 /* AppDelegate.swift */,
+				A5EC0C151C4499060078D895 /* View */,
+				A5EC0BEE1C4498FB0078D895 /* Assets.xcassets */,
+				A5EC0BF01C4498FB0078D895 /* LaunchScreen.storyboard */,
+				A5EC0BF31C4498FB0078D895 /* Info.plist */,
+			);
+			path = HomeworkScheduler;
+			sourceTree = "<group>";
+		};
+		A5EC0BFB1C4498FC0078D895 /* HomeworkSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0BFC1C4498FC0078D895 /* HomeworkSchedulerTests.swift */,
+				A5EC0BFE1C4498FC0078D895 /* Info.plist */,
+			);
+			path = HomeworkSchedulerTests;
+			sourceTree = "<group>";
+		};
+		A5EC0C061C4498FC0078D895 /* HomeworkSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C071C4498FC0078D895 /* HomeworkSchedulerUITests.swift */,
+				A5EC0C091C4498FC0078D895 /* Info.plist */,
+			);
+			path = HomeworkSchedulerUITests;
+			sourceTree = "<group>";
+		};
+		A5EC0C151C4499060078D895 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0BEB1C4498FB0078D895 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A5EC0C1D1C449D950078D895 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C271C449ECD0078D895 /* Work */,
+				A5EC0C221C449E5F0078D895 /* HomeworkDetails */,
+				A5EC0C1F1C449DF70078D895 /* AddHomework */,
+				A5EC0C1E1C449DCD0078D895 /* Homework */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A5EC0C1E1C449DCD0078D895 /* Homework */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C171C449A030078D895 /* HomeworkTableViewController.swift */,
+				A53BCF3A1C8E8C020045C0F0 /* HomeworkCells */,
+			);
+			name = Homework;
+			sourceTree = "<group>";
+		};
+		A5EC0C1F1C449DF70078D895 /* AddHomework */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C201C449E230078D895 /* AddHomeworkViewController.swift */,
+				A5F4AE101C643E890071420A /* Steps */,
+			);
+			name = AddHomework;
+			sourceTree = "<group>";
+		};
+		A5EC0C221C449E5F0078D895 /* HomeworkDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C231C449E800078D895 /* HomeworkDetailsTableViewController.swift */,
+				A5EC0C251C449E930078D895 /* HomeworkDetailsTableViewCell.swift */,
+				A5F4AE1A1C7FF4280071420A /* StepDisplay */,
+				A5F4AE191C7FED870071420A /* HomeworkCellTypes */,
+			);
+			name = HomeworkDetails;
+			sourceTree = "<group>";
+		};
+		A5EC0C271C449ECD0078D895 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC0C2A1C449F1C0078D895 /* WorkInProgressViewController.swift */,
+				A5EC0C2C1C449F300078D895 /* WorkViewController.swift */,
+				A53BCF3D1C8FE8A80045C0F0 /* DoneCheckIn */,
+			);
+			name = Work;
+			sourceTree = "<group>";
+		};
+		A5F4AE0D1C5B089E0071420A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4AE0E1C5B08B70071420A /* Homework.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5F4AE101C643E890071420A /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4AE0B1C571DDC0071420A /* StepsTableViewCell.swift */,
+				A5F4AE091C571D9E0071420A /* StepsTableViewController.swift */,
+				A5F4AE111C643EB30071420A /* AddStepsViewController.swift */,
+			);
+			name = Steps;
+			sourceTree = "<group>";
+		};
+		A5F4AE191C7FED870071420A /* HomeworkCellTypes */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4AE151C6993E80071420A /* HomeworkStepsDetailTableViewCell.swift */,
+				A5F4AE171C6994050071420A /* HomeworkWorkBtnTableViewCell.swift */,
+				A5F4AE131C6993D30071420A /* HomeworkNotesDetailTableViewCell.swift */,
+			);
+			name = HomeworkCellTypes;
+			sourceTree = "<group>";
+		};
+		A5F4AE1A1C7FF4280071420A /* StepDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4AE1B1C7FF4580071420A /* DisplayStepsTableViewController.swift */,
+				A5F4AE1D1C7FF4720071420A /* IndividualStepsTableViewCell.swift */,
+			);
+			name = StepDisplay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5EC0BE31C4498FB0078D895 /* otoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EC0C0C1C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoi" */;
+			buildPhases = (
+				A5EC0BE01C4498FB0078D895 /* Sources */,
+				A5EC0BE11C4498FB0078D895 /* Frameworks */,
+				A5EC0BE21C4498FB0078D895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otoi;
+			productName = HomeworkScheduler;
+			productReference = A5EC0BE41C4498FB0078D895 /* otoi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5EC0BF71C4498FC0078D895 /* otoiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EC0C0F1C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoiTests" */;
+			buildPhases = (
+				A5EC0BF41C4498FC0078D895 /* Sources */,
+				A5EC0BF51C4498FC0078D895 /* Frameworks */,
+				A5EC0BF61C4498FC0078D895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EC0BFA1C4498FC0078D895 /* PBXTargetDependency */,
+			);
+			name = otoiTests;
+			productName = HomeworkSchedulerTests;
+			productReference = A5EC0BF81C4498FC0078D895 /* otoi.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5EC0C021C4498FC0078D895 /* otoiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5EC0C121C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoiUITests" */;
+			buildPhases = (
+				A5EC0BFF1C4498FC0078D895 /* Sources */,
+				A5EC0C001C4498FC0078D895 /* Frameworks */,
+				A5EC0C011C4498FC0078D895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5EC0C051C4498FC0078D895 /* PBXTargetDependency */,
+			);
+			name = otoiUITests;
+			productName = HomeworkSchedulerUITests;
+			productReference = A5EC0C031C4498FC0078D895 /* otoi.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5EC0BDC1C4498FB0078D895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Merritt Vassallo";
+				TargetAttributes = {
+					A5EC0BE31C4498FB0078D895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = B4MV76W7BF;
+					};
+					A5EC0BF71C4498FC0078D895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A5EC0BE31C4498FB0078D895;
+					};
+					A5EC0C021C4498FC0078D895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A5EC0BE31C4498FB0078D895;
+					};
+				};
+			};
+			buildConfigurationList = A5EC0BDF1C4498FB0078D895 /* Build configuration list for PBXProject "otoi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5EC0BDB1C4498FB0078D895;
+			productRefGroup = A5EC0BE51C4498FB0078D895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5EC0BE31C4498FB0078D895 /* otoi */,
+				A5EC0BF71C4498FC0078D895 /* otoiTests */,
+				A5EC0C021C4498FC0078D895 /* otoiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5EC0BE21C4498FB0078D895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC0BF21C4498FB0078D895 /* LaunchScreen.storyboard in Resources */,
+				A5EC0BEF1C4498FB0078D895 /* Assets.xcassets in Resources */,
+				A5EC0BED1C4498FB0078D895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0BF61C4498FC0078D895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0C011C4498FC0078D895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5EC0BE01C4498FB0078D895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC0C261C449E930078D895 /* HomeworkDetailsTableViewCell.swift in Sources */,
+				A53BCF3F1C8FE8D20045C0F0 /* CheckInViewController.swift in Sources */,
+				A5F4AE141C6993D30071420A /* HomeworkNotesDetailTableViewCell.swift in Sources */,
+				A5C4439F1CA0D3FE003BC786 /* filterProtocol.swift in Sources */,
+				A5F4AE0A1C571D9E0071420A /* StepsTableViewController.swift in Sources */,
+				A5F4AE121C643EB30071420A /* AddStepsViewController.swift in Sources */,
+				A5EC0C181C449A030078D895 /* HomeworkTableViewController.swift in Sources */,
+				A5EC0C1A1C449CFD0078D895 /* AssignmentTableViewCell.swift in Sources */,
+				A5EC0C241C449E800078D895 /* HomeworkDetailsTableViewController.swift in Sources */,
+				A5F4AE0C1C571DDC0071420A /* StepsTableViewCell.swift in Sources */,
+				A5F4AE161C6993E80071420A /* HomeworkStepsDetailTableViewCell.swift in Sources */,
+				A53BCF3C1C8E8C260045C0F0 /* FilterTableViewCell.swift in Sources */,
+				A5F4AE0F1C5B08B70071420A /* Homework.swift in Sources */,
+				A5F4AE1E1C7FF4720071420A /* IndividualStepsTableViewCell.swift in Sources */,
+				A5EC0C211C449E230078D895 /* AddHomeworkViewController.swift in Sources */,
+				A5EC0C2D1C449F300078D895 /* WorkViewController.swift in Sources */,
+				A5F4AE1C1C7FF4580071420A /* DisplayStepsTableViewController.swift in Sources */,
+				A5F4AE181C6994050071420A /* HomeworkWorkBtnTableViewCell.swift in Sources */,
+				A5EC0BE81C4498FB0078D895 /* AppDelegate.swift in Sources */,
+				A5EC0C2B1C449F1C0078D895 /* WorkInProgressViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0BF41C4498FC0078D895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC0BFD1C4498FC0078D895 /* HomeworkSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC0BFF1C4498FC0078D895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5EC0C081C4498FC0078D895 /* HomeworkSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5EC0BFA1C4498FC0078D895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5EC0BE31C4498FB0078D895 /* otoi */;
+			targetProxy = A5EC0BF91C4498FC0078D895 /* PBXContainerItemProxy */;
+		};
+		A5EC0C051C4498FC0078D895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5EC0BE31C4498FB0078D895 /* otoi */;
+			targetProxy = A5EC0C041C4498FC0078D895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5EC0BEB1C4498FB0078D895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EC0BEC1C4498FB0078D895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5EC0BF01C4498FB0078D895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5EC0BF11C4498FB0078D895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5EC0C0A1C4498FC0078D895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5EC0C0B1C4498FC0078D895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5EC0C0D1C4498FC0078D895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4MV76W7BF;
+				INFOPLIST_FILE = HomeworkScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkScheduler;
+				PRODUCT_NAME = otoi;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A5EC0C0E1C4498FC0078D895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B4MV76W7BF;
+				INFOPLIST_FILE = HomeworkScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkScheduler;
+				PRODUCT_NAME = otoi;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		A5EC0C101C4498FC0078D895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeworkSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkSchedulerTests;
+				PRODUCT_NAME = otoi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otoi.app/otoi";
+			};
+			name = Debug;
+		};
+		A5EC0C111C4498FC0078D895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HomeworkSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkSchedulerTests;
+				PRODUCT_NAME = otoi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otoi.app/otoi";
+			};
+			name = Release;
+		};
+		A5EC0C131C4498FC0078D895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HomeworkSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkSchedulerUITests;
+				PRODUCT_NAME = otoi;
+				TEST_TARGET_NAME = HomeworkScheduler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A5EC0C141C4498FC0078D895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HomeworkSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.breakoutmentors.HomeworkSchedulerUITests;
+				PRODUCT_NAME = otoi;
+				TEST_TARGET_NAME = HomeworkScheduler;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5EC0BDF1C4498FB0078D895 /* Build configuration list for PBXProject "otoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC0C0A1C4498FC0078D895 /* Debug */,
+				A5EC0C0B1C4498FC0078D895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EC0C0C1C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC0C0D1C4498FC0078D895 /* Debug */,
+				A5EC0C0E1C4498FC0078D895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EC0C0F1C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC0C101C4498FC0078D895 /* Debug */,
+				A5EC0C111C4498FC0078D895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5EC0C121C4498FC0078D895 /* Build configuration list for PBXNativeTarget "otoiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5EC0C131C4498FC0078D895 /* Debug */,
+				A5EC0C141C4498FC0078D895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5EC0BDC1C4498FB0078D895 /* Project object */;
+}
